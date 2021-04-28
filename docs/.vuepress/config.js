@@ -1,5 +1,4 @@
 module.exports = {
-  theme: 'antdocs',
   title: '欢迎访问supengfei007.com',
   description: 'Happy coding',
   themeConfig: {

@@ -1,5 +1,5 @@
 {
-  "name": "supengfei",
+  "name": "pengfeis",
   "version": "1.0.0",
   "description": "blog of dev skills",
   "main": "index.js",
@@ -8,14 +8,24 @@
     "docs:build": "vuepress build docs"
   },
   "author": "pengfeis",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "dev"
   ],
   "devDependencies": {
-    "vuepress": "^1.8.2"
-  },
-  "dependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.8.2",
     "vuepress-theme-antdocs": "^1.2.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengfeis/supengfei007.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pengfeis/supengfei007/issues"
+  },
+  "homepage": "https://github.com/pengfeis/supengfei007#readme"
 }
