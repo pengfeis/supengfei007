@@ -1,28 +1,19 @@
+const head = require('./config/head.js');
+const plugins = require('./config/plugins.js');
+const themeConfig = require('./config/themeConfig.js');
+
 module.exports = {
-  title: '欢迎访问supengfei007.com',
-  description: 'Happy coding',
-  themeConfig: {
-    sidebar: 'auto',
-    sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
-    nav: [
-      {
-        text: 'Java', items: [{ text: 'JUnit', link: '/dev/junit_best_practice' },
-        { text: 'Postman Auto Test', link: '/dev/TestWithPostman' },
-        { text: 'CompeleteFuture NPE Issue', link: '/dev/compelete_future_with_npe' }]
-      }, // 内部链接 以docs为根目录
-      // 下拉列表
-      { text: 'Useful Command', items: [{ text: 'code in one line', link: '/useful_shell/command' }] },
-      {
-        text: 'GitHub',
-        items: [
-          { text: 'pengfeis GitHub', link: 'https://github.com/pengfeis' },
-          {
-            text: '算法仓库',
-            link: 'https://github.com/OBKoro1/Brush_algorithm'
-          }
-        ]
-      }
-    ]
-  }
+  theme: 'vdoing', // 使用npm包主题
+  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
+
+  title: "Pengfeis blog",
+  description: 'Java和Spring Boot相关技术文章',
+  // base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  markdown: {
+    lineNumbers: true, // 代码行号
+  },
+
+  head,
+  plugins,
+  themeConfig,
 }
