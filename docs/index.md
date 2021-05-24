@@ -11,7 +11,7 @@ features: # 可选的
   - title: JVM
     details: JVM, SpringBoot相关技术
     link: /jvm/ # 可选
-    imgUrl: /img/web.png # 可选
+    imgUrl: /img/jvm-coffee.png # 可选
   - title: 页面
     details: 算法和编程技巧相关技术
     link: /ui/
