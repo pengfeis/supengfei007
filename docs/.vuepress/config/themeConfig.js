@@ -25,7 +25,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
     name: 'Pengfei Su',
-    slogan: '小学生',
+    slogan: 'Bug make machine',
   },
   social: {
     icons: [
@@ -41,11 +41,17 @@ module.exports = {
       }
     ],
   },
+
+  // 备案号
+  record: '沪ICP备2021010046号-1',
+  // 项目开始时间, 只填写年份
+  startYear: '2021',
+
   footer: {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      '<div style="width:300px;margin:0 auto; padding:20px 0;">沪ICP备2021010046号-1<a target="_blank" href="" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/hugabn.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011502017789号</p></a ></div>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }

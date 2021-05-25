@@ -86,7 +86,7 @@ module.exports = {
      `<!-- 固定160*160px -->
       <ins class="adsbygoogle"
           style="display:inline-block;max-width:160px;max-height:160px"
-          data-ad-client="ca-pub-7828333725993554"
+          data-ad-client="ca-pub-4390552021027892"
           data-ad-slot="8377369658"></ins>
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
